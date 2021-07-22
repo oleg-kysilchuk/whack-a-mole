@@ -1,0 +1,47 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D6F1DF;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.start-btn {
+    width: 80px;
+    background-color: antiquewhite;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.game-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 618px;
+    width: 618px;
+}
+
+.hole {
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+}
+
+.mole {
+    background-image: url('../assets/mole.png');
+    background-size: cover;
+}
